@@ -1,4 +1,4 @@
-package by.it._tasks_.lesson02;
+package by.it.zhuk.lesson02;
 
 /* Нужно написать программу, которая вводит два числа с клавиатуры
 и выводит их сумму на экран в виде
@@ -10,9 +10,6 @@ package by.it._tasks_.lesson02;
 Sum = 26
 */
 class TaskC1 {
-
-
-
 
 
 }

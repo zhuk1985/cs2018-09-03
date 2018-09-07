@@ -1,4 +1,4 @@
-package by.it._tasks_.lesson02;
+package by.it.zhuk.lesson02;
 
 /*
 Выводим квадрат числа
@@ -18,6 +18,13 @@ int i=sc.nextInt();
 4. Программа должна выводить квадрат считанного числа.
 
  */
-
+import java.util.Scanner;
 class TaskB1 {
+    public static void main(String[] args)
+    {
+int a;
+    Scanner sc = new Scanner(System.in);
+    a = sc.nextInt();
+    System.out.println ("Квадрат числа" + "=" + a*a);
+            }
 }
