@@ -42,7 +42,7 @@ class TaskA1 {
         int b = sc.nextInt();
         int sum = a + b;
         int sub = a - b;
-        int mul = a + b;
+        int mul = a * b;
         int div = a / b;
         int mod = a % b;
         System.out.println(sum + " " + sub + " " + mul + " " + div + " " + mod);

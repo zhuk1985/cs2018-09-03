@@ -22,7 +22,7 @@ Lesson 03. Task A2. Стихотворение
 */
 class TaskA2 {
  public static void main (String[] args){
-     System.out.println("Мое любимое стихотворение");
+     System.out.print("Мое любимое стихотворение:\n");
      System.out.println("Елочка!!!");
      String a = "В лесу родилась елочка;";
      String b = "В лесу она росла;";
