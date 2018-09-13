@@ -28,23 +28,18 @@ import java.util.Scanner;
 
 public class TaskB3 {
 
-            public static void main(String[] args) {
-            Scanner sc = new Scanner(System.in);
-            int num = sc.nextInt();
-                int i = 0, n = 1;
-                int x1 = 1;
-                int x2 = 3;
-                int x3 = 6;
-                int x4 = 10;
-                int x5 = 15;
-                int x6 = 21;
-                int x7 = 28;
-                int x8 = 36;
-                int x9 = 45;
-                int x10 = 55;
-                int x11 = 66;
-                int x12 = 78;
-                int x13 = 91;
-                int x14 = 105;
-                int x15 = 120;}}
-
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int num = sc.nextInt();
+        int i = 1;
+        int sum = 0;
+        for (; ; ) {
+            sum = sum + i++;
+            if (sum > num) {
+                break;
+            } else {
+                System.out.print(sum + ",");
+            }
+        }
+    }
+}
