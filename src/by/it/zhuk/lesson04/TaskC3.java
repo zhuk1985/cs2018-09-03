@@ -1,6 +1,5 @@
 package by.it.zhuk.lesson04;
 
-import java.util.Scanner;
 /*
 Вывести таблицу умножения 10 x 10 (двоныйм циклом),
 но вывод должен быть словами:
@@ -24,7 +23,7 @@ import java.util.Scanner;
 десять умножить на десять равно сто
 */
 
-public class TaskC3<psvm> {
+public class TaskC3 {
     private static String intToString(int i) {
         if (i < 20)
             switch (i) {
@@ -69,7 +68,7 @@ public class TaskC3<psvm> {
             }
         else {
             int d = i / 10;
-            String end = ((i % 10) == 0) ? "" : "" + intToString(i % 10);
+            String end = ((i % 10) == 0) ? " " : " " + intToString(i % 10);
             switch (d) {
                 case 2:
                     return "двадцать" + end;
@@ -98,7 +97,8 @@ public class TaskC3<psvm> {
     public static void main(String[] args) {
         for (int i = 2; i <= 10; i++) {
             for (int j = 2; i <= 10; i++) {
-                System.out.println(intToString(i) + "умножить на" + intToString(j) + "равно" + intToString(i + j));
+                System.out.println(intToString(i) + " умножить на " +
+                        intToString(j) + " равно " + intToString(i + j));
             }
         }
     }
@@ -106,5 +106,3 @@ public class TaskC3<psvm> {
 
 // 0. Ввести с консоли n целых чисел и поместить их в массив.
 
-
-}

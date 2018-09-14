@@ -4,15 +4,6 @@ package by.it._tasks_.lesson05;
 Задача: Написать программу, которая вводит с клавиатуры 20 чисел и выводит их в убывающем порядке.
 */
 
-public class TaskC2 {
-    //Напишите тут ваш код
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
 
-
-
-
-
-    public static void sort(int[] array) {
-        //Напишите тут ваш код
-    }
-
-}
